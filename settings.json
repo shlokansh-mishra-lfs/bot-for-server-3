@@ -1,6 +1,6 @@
 {
   "bot-account": {
-    "username": "Ajay_Bhai", 
+    "username": "fsck", 
     "password": "",
     "type": "mojang"
   },
@@ -32,7 +32,7 @@
     "chat-messages": {
       "enabled": true,
       "repeat": true,
-      "repeat-delay": 120,
+      "repeat-delay": 1320,
 
       "messages": [
         "§8 Hello! Survivors",
