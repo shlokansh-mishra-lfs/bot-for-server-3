@@ -165,19 +165,19 @@ function createBot() {
       });
    }
 
-   bot.on('kicked', (reason) =>
+   bot.on('kicked', (reason) => {
       console.log(
          '\x1b[33m',
          `[AfkBot] cbuot was kicked from the server. Reason: \n${reason}`,
          '\x1b[0m'
       );
           isJoined = false;
-   );
+   });
 
-   bot.on('error', (err) =>
+   bot.on('error', (err) => {
       console.log(`\x1b[31m[ERROR] ${err.message}`, '\x1b[0m');
           isJoined = false;
-   );
+   });
 }
 
 createBot();
