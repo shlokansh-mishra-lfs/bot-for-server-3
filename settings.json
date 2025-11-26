@@ -1,0 +1,53 @@
+{
+  "bot-account": {
+    "username": "Ajay_Bhai", 
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "N0ctane_Verse.aternos.me", 
+    "port": 17714,   
+    "version": "1.18"   
+  },
+  
+  "position": {
+    "enabled": true,
+    "x": 99999999990,
+    "y": 99999999999999990,
+    "z": 99999999990
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 120,
+
+      "messages": [
+        "§8 Hello! Survivors",
+        "§8 Subscibe To NXTDON :>!",
+        "§8 I Like to Play Minecraft!",
+        "§8 N0ctane_Verse is the best server ever!",
+        "§8 LFS for N0ctane_Verse",
+        "§8 letssssssss goooooooooo",
+        "§8 i died lol",
+        "§8 send me the cords"
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 7000
+  }
+}
